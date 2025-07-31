@@ -7,9 +7,8 @@ const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
 const nav = document.querySelector('.nav');
 
 // Bitly API Configuration
-// Note: In a real application, you would want to secure your API key
-// This is a simplified example for educational purposes
-const BITLY_API_KEY = 'YOUR_BITLY_API_KEY'; // Replace with your actual Bitly API key
+
+const BITLY_API_KEY = '1ccbe801f3476ae1860441e0e7972eceb8db08a2';
 const BITLY_API_URL = 'https://api-ssl.bitly.com/v4/shorten';
 
 // Mobile Menu Toggle
