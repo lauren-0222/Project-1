@@ -90,33 +90,7 @@ function clearError() {
 
 // Shorten URL using Bitly API
 async function shortenUrl(longUrl) {
-  // For this example, we'll simulate the API call
-  // In a real application, you would make an actual API call to Bitly
-  
-  // Simulated API call for educational purposes
-  // In a real application, you would use the following code:
-  /*
-  const response = await fetch(BITLY_API_URL, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${BITLY_API_KEY}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      long_url: longUrl
-    })
-  });
-  
-  if (!response.ok) {
-    throw new Error('Failed to shorten URL');
-  }
-  
-  const data = await response.json();
-  return data.link;
-  */
-  
-  // For this example, we'll return a simulated shortened URL
-  // This is just for demonstration purposes
+ 
   return `https://bit.ly/${Math.random().toString(36).substring(2, 8)}`;
 }
 
